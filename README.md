@@ -12,14 +12,14 @@ $ python3 -m pip -r install requirements.txt
 ```
 
 ## :crystal_ball: orbAnalysis
-### Descriprion
+### Description
 The script displays two successive consecutive frames, where annotated objects are surrounded by bounding boxes.
 Annotations should follow the [Labelbox style](https://docs.labelbox.com/reference/bounding-box)
 for the video annotations exporting. To simplify the ID tracking, objects with same ID are connected with the lines.
 Possibilities of the script:
 #### 🔴 Connecting lines
 - Press `1` to turn on the mode where each line is visualised.
-Line and bbox gets highlighted if the user hover the mouse over the object.
+Line and box gets highlighted if the user hovers the mouse over the object.
 - Press `2` to turn on the mode where only hovered objects have their lines displayed and highlighted.
 - Press `3` to stop displaying the connecting lines.
 #### 🟠 Feature IDs
@@ -38,7 +38,7 @@ Script allows to draw/display not more than one ROI.
 2. To draw ROI press `LB` on the mouse and drag the cursor until you are satisfied
 with the result.
    1. Drawing mode turns off automatically after the ROI is drawn.
-   2. To clear the ROI press `RB` or `Del` for Linus users.
+   2. To clear the ROI press `RB` or `Del` for Linux users.
    3. To draw another ROI clear it using previous list item ⬆️ and
    repeat everything listed above in this section. 
 
